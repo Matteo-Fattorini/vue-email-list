@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+
+		<!-- VUE-->
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script> 
+
+
+		<!-- AXIOS -->
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+		<!-- Custom CSS -->
+
+		<link rel="stylesheet" href="css/style.css">
+
+
+        <script defer src="js/main.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="container">
+		<ul>
+			<li v-for="mail in mailList">{{mail}}</li>
+		</ul>
+		</div>
+	</body>
+</html>
